@@ -1,0 +1,26 @@
+/*
+Theme Name: Mukumbwe Custom Theme
+Template: hello-elementor
+Version: 1.1
+Description: Premium custom header and footer for Mukumbwe Primary School.
+*/
+
+/* Global Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Prevent horizontal scroll from full-width elements */
+body {
+    overflow-x: hidden;
+}
+
+/* Optional: Add a subtle fade-in animation for page load */
+.mps-global-header, .mps-global-footer {
+    animation: mpsFadeIn 0.6s ease-out forwards;
+}
+
+@keyframes mpsFadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
