@@ -4,3 +4,4 @@ Update README with project details
 - Mobile responsive design
 - Custom PHP/MySQL Admissions Form
 - SEO Optimized
+- Security Hardened
